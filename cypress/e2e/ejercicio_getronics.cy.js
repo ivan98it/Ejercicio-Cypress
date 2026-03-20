@@ -86,12 +86,12 @@ describe('Ejercicio de automatización - Movistar', () => {
 
     //validamos retiro en el local
     TelefonoPagina.CuadroRetiro().should('contain.text','Retiro en local');
-    //validamos retiro en el correo
+    //validamos retiro en el correo 
     TelefonoPagina.CuadroCorreo().should('contain.text','Retiro en correo');
 
     cy.screenshot('CP004-Retiro en local-Retiro en correo');
         
     });
 
-});
+}); 
 
